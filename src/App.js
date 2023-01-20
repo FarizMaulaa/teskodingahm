@@ -3,6 +3,8 @@ import "./App.css";
 import Halutama from "./componen/Halutama";
 import Login from "./componen/Login";
 import Dasboard from "./componen/Dasboard";
+import Setb from "./componen/Setb";
+import Setbb from "./componen/Setbb";
 
 function App() {
   return (
@@ -15,6 +17,10 @@ function App() {
       </div>
       <div>
         <Dasboard />
+      </div>
+      <div>
+        <Setb />
+        <Setbb />
       </div>
     </div>
   );
