@@ -96,7 +96,6 @@ function Setb() {
           <XAxis dataKey="name" stroke="#FFFF" />
           <YAxis stroke="#FFFF" />
           <Tooltip stroke="#FFFF" />
-          <Line dataKey="pv" stroke="#8884d8" activeDot={{ r: 4 }} />
           <Line type="monotone" dataKey="uv" stroke="#FFFF00" />
         </LineChart>
       </div>
