@@ -1,5 +1,6 @@
 import React from "react";
 import Sayap from "../image/syap.jpg";
+import Jam from "./Jam";
 
 function Db() {
   return (
@@ -24,12 +25,11 @@ function Db() {
           </div>
           <div className="flex justify-center items-center p-3">
             <p className="text-lg font-bold text-white">
-              {new Date().toLocaleTimeString()}
+              <Jam />
             </p>
           </div>
         </div>
       </div>
-      <div></div>
     </div>
   );
 }
